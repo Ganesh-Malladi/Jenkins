@@ -8,8 +8,8 @@ agent any
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x SE_Jenkins.py"
-                sh "./SE_Jenkins.py"
+                sh "chmod u+x SE_jenkins.py"
+                sh "./SE_jenkins.py"
             }
         }
      stage('Test Code') {
