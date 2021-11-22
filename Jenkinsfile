@@ -3,13 +3,13 @@ agent any
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/Ganesh_Malladi/Jenkins.git'
+                git 'https://github.com/Ganesh-Malladi/Jenkins.git'
             }
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x SE_Jenkins.py"
-                sh "./SE_Jenkins.py"
+                sh "chmod u+x SE_jenkins.py"
+                sh "./SE_jenkins.py"
             }
         }
      stage('Test Code') {
