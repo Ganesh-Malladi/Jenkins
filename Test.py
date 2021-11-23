@@ -19,7 +19,7 @@ class Testadd6(unittest.TestCase):
         """
         data = [1,9,21,-3,11]
         result = add_6_to_list(data)
-        self.assertEqual(result, [7,15,27,3,17])
+        self.assertEqual(result, [7,15,27,2,17])
         
     def test3_list_int(self):
         """
